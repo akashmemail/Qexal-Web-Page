@@ -1,0 +1,9 @@
+.fetcherImages img {
+  width: 500px;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .fetcherImages img {
+    width: 300px;
+  }
+}

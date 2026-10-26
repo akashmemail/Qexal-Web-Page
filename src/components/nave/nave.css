@@ -1,0 +1,15 @@
+.Navelink {
+  background-color: #365fff !important;
+}
+
+.navebtn {
+  background-color: white;
+  color: #365fff;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  font-weight: 600;
+}

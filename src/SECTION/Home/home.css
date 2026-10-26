@@ -1,0 +1,50 @@
+.homeheding {
+  font-size: 5rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.homebtn2 {
+  width: 200px;
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+
+.homebtn3 i:hover {
+  transform: scale(1.3);
+  color: black;
+  transition: all 1s ease;
+}
+.homebtn3 i {
+  font-size: 2rem;
+}
+.custom-shape-divider-bottom-1792909548 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1792909548 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1792909548 .shape-fill {
+  fill: #ffffff;
+}
+@media (max-width: 768px) {
+  .imagehome {
+    display: flex;
+    flex-direction: column;
+    .homeheding {
+      font-size: 2rem;
+    }
+  }
+}
